@@ -7,35 +7,60 @@ body {
     background-size: cover;
 }
 
-.header {
+#header {
     background-color: rgba(0,0,0,0.2);
-    height: 68px;
     align-items: center;
+    padding: 8px;
 }
 
 #menu_container {
-    display: inline-block;
-    height: 56px;
-    padding-top: 12px;
-    width: 65px;
+    height: 52px;
+    width: 58px;
+    padding-top: 8px;
+    padding-bottom: -8px;
 }
 
 #menu_container:hover {
-    background-color: rgba(0,0,0,0.25);
+    background-color: rgba(0,0,0,0.2);
 }
 
-.menu {
-    width: 35px;
-    height: 5px;
+#menu_container span {
     background-color: white;
+    display: block;
+    height: 6px;
+    width: 80%;
     margin: 6px auto;
+    border-radius: 4px;
 }
 
-#header_name {
-    display: inline-block;
-    color: white;
-    background-color: red;
-    
+#intro_section {
+    margin: 24px 18px;
+    background-color: rgba(255,255,255,0.35);
+    width: auto;
+    text-align: center;
+    padding: 8px;
+}
+
+#intro_section h2 {
+    color: #434343;
+    font-family: 'Oswald', serif;
+    font-size: 32px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.dark_separator {
+    height: 2px;
+    width: 80%;
+    margin: 4px auto;
+    background-color: #434343;
+}
+
+.content_container {
+    color: #434343;
+    padding: 12px 18px;
+    font-family: 'Oswald', serif;
+    font-size: 16px;
 }
 
 
