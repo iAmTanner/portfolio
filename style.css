@@ -148,6 +148,7 @@ body {
     border-width: 2px;
     border-color: #434343;
     padding: 8px;
+    max-width: 70vh;
 }
 
 .experience_list_item h4 {
