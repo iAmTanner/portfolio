@@ -3,14 +3,28 @@
   <head title="Tanner Ostenson">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   </head>
 
   <body>
     <div id="header">
-      <div id="menu_container">
+      <div id="header_text">Tanner Ostenson</div>
+      <div id="menu_container" style="display: none;">
         <span></span>
         <span></span>
         <span></span>
+      </div>
+      
+      <div id="contact_container">
+        <div id="contact_info">
+          <i id="phone_icon" class="fa fa-phone"></i>
+          <span id="contact_text">385.207.1244</span>
+        </div>
+        <div id="contact_info">
+          <i id="email_icon" class="material-icons">mail_outline</i>
+          <span id="contact_text">tannerostenson@gmail.com</span>
+        </div>
       </div>
     </div>
     
@@ -18,7 +32,7 @@
       <h2>Introduction</h2>
       <div class="dark_separator"></div>
       <div class="content_container">
-        I will put some content here eventually about myself. Education.
+        I am currently studying <span class="dark_highlight">Computer Science</span> (BS) at Brigham Young University. I'm currently in my Junior year and enjoy programming, specifically front-end development. I enjoy working on UX and creating mobile applications using <span class="dark_highlight">JavaScript</span> through <span class="dark_highlight">ReactNative.</span> I've lived in Utah most my life, and my wife and I have been married just over a year. 
       </div>
     </section>
     
@@ -30,17 +44,17 @@
           <li class="experience_list_item">
             <h4>Software Developer (Intern)</h4>
             <h5>Amazon</h5>
-            <div class="experience_item_content">I'll add more content <span class="blue_highlight">here</span> later.</div>
+            <div class="experience_item_content">Worked on the authentication team developing a system to analyze feature requests and bug reports within team projects. Used a <span class="blue_highlight">Natural Language Processor</span> to analyze text along with <span class="blue_highlight">k-mean clustering</span> to categorize data to help developers respond to requests in a more efficient manner. Accomplished this through industry-leading development tools such as: <span class="blue_highlight">S3, DynamoDB, AWS Lambda, and API Gateway.</span></div>
           </li>
           <li class="experience_list_item">
             <h4>Head Mobile Application Developer</h4>
             <h5>Dabl</h5>
-            <div class="experience_item_content">I'll add <span class="blue_highlight">more</span> content here later.</div>
+            <div class="experience_item_content">Developed an iOS/Android mobile application in <span class="blue_highlight">React Native</span> for a local startup social media company. Utilized <span class="blue_highlight">JavaScript, CSS,</span> as well as <span class="blue_highlight">HTML</span> to create a flexible design and dynamic interface. For backend,<span class="blue_highlight"> Google's Firebase</span> was used as well as additional <span class="blue_highlight">SQL</span> backends.</div>
           </li>
           <li class="experience_list_item">
             <h4>Volunteer Representative</h4>
             <h5>The Church of Jesus Christ of Latter-Day Saints</h5>
-            <div class="experience_item_content">I'll <span class="blue_highlight">add</span> more content here later.</div>
+            <div class="experience_item_content">Scheduled and organized weekly events that included more than 10 people. Because of that, I gained interpersonal skills and developed a good work ethic due to <span class="blue_highlight">70+ hour</span> work weeks. Eventually, I was appointed to lead the <span class="blue_highlight">training of over 170 people</span> on a monthly basis.</div>
           </li>
         </ul>
       </div>
@@ -50,7 +64,21 @@
       <h2>Skills</h2>
       <div class="light_separator"></div>
       <div class="content_container">
-        Here will be some skills in circles of differing sizes depending on emphasis.
+        <div class="light_big_circle">API Gateway</div>
+        <div class="light_small_circle">C++</div>
+        <div class="light_small_circle">CSS</div>
+        <div class="light_big_circle">DynamoDB</div>
+        <div class="light_small_circle">EC2</div>
+        <div class="light_med_circle">Firebase</div>
+        <div class="light_big_circle">Front-End</div>
+        <div class="light_small_circle">HTML</div>
+        <div class="light_med_circle">Java</div>
+        <div class="light_big_circle">JavaScript</div>
+        <div class="light_small_circle">Linux</div>
+        <div class="light_big_circle">React Native</div>
+        <div class="light_small_circle">S3</div>
+        <div class="light_med_circle">NoSQL</div>
+        <div class="light_small_circle">SQLite</div>
       </div>
     </section>
     
@@ -58,7 +86,9 @@
       <h2>Portfolio</h2>
       <div class="blue_separator"></div>
       <div class="content_container">
-        More portfolio stuff. LinkedIn. GitHub. Expo? Facebook.
+        <div class="portfolio_icon"><a target="_blank" href="www.linkedin.com/in/tannerostenson"><img src="./linkedin_circle_logo.png" /></a>LinkedIn</div>
+        <div class="portfolio_icon"><a target="_blank" href="https://github.com/iAmTanner"><img src="./github_circle_color-512.png" /></a>GitHub</div>
+        <div class="portfolio_icon"><a target="_blank" href="https://expo.io/@tannerostenson"><img src="./rn.png" /></a>ReactNative</div>
       </div>
     </section>
   </body>

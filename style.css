@@ -12,10 +12,22 @@ body {
     color: #65AEF9;
 }
 
+.dark_highlight {
+    color: #000000;
+    font-weight: bold;
+}
+
 #header {
     background-color: rgba(0,0,0,0.2);
-    align-items: center;
     padding: 8px;
+    min-height: 65px;
+}
+
+#header_text {
+    font-family: 'Oswald', serif;
+    font-size: 36px;
+    margin-top: 8px;
+    color: white;
 }
 
 #menu_container {
@@ -36,6 +48,40 @@ body {
     width: 80%;
     margin: 6px auto;
     border-radius: 4px;
+}
+
+#contact_container {
+    position: absolute;
+    right: 8px;
+    top: 24px;
+    padding: 4px;
+}
+
+#phone_icon {
+    font-size: 24px;
+    padding: 8px;
+}
+
+#email_icon {
+    font-size: 24px;
+    padding: 8px;
+    padding-top: 2px;
+}
+
+#contact_container i {
+    text-align: left;
+}
+
+#contact_info {
+    color: white;
+    display: inline-table;
+}
+
+#contact_text {
+    display: table-cell;
+    vertical-align: middle;
+    color: white;
+    font-family: 'Oswald', serif;
 }
 
 #intro_section {
@@ -66,6 +112,10 @@ body {
     padding: 12px 18px;
     font-family: 'Oswald', serif;
     font-size: 16px;
+}
+
+#intro_section .content_container {
+    text-align: left;
 }
 
 #experience_section {
@@ -143,6 +193,47 @@ body {
     font-size: 16px;
 }
 
+.light_small_circle {
+    display: inline-block;
+    border-style: solid;
+    border-color: #f3f0ec;
+    border-width: 3px;
+    border-radius: 16px;
+    height: 25px;
+    width: 45px;
+    text-align: center;
+    line-height: 25px;
+    margin: 12px;
+}
+
+.light_med_circle {
+    display: inline-block;
+    border-style: solid;
+    border-color: #f3f0ec;
+    border-width: 3px;
+    border-radius: 16px;
+    height: 35px;
+    width: 85px;
+    text-align: center;
+    line-height: 35px;
+    margin: 12px;
+    font-size: 18px;
+}
+
+.light_big_circle {
+    display: inline-block;
+    border-style: solid;
+    border-color: #f3f0ec;
+    border-width: 3px;
+    border-radius: 16px;
+    height: 50px;
+    width: 125px;
+    text-align: center;
+    line-height: 50px;
+    margin: 12px;
+    font-size: 24px;
+}
+
 #portfolio_section {
     margin: 0px 0px;
     background-color: #434343;
@@ -171,6 +262,17 @@ body {
     padding: 12px 18px;
     font-family: 'Oswald', serif;
     font-size: 16px;
+}
+
+.portfolio_icon {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    margin: 4px 18px;
+}
+
+.portfolio_icon img{
+    max-width: 100%;
 }
 
 
